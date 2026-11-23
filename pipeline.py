@@ -13,7 +13,7 @@ def simulate_eeg_data(num_samples=2500, fs=250, num_channels=8):
     # Generate background pink/white noise across channels
     eeg_data = np.random.normal(0, 1, (num_channels, num_samples))
     
-    # Simulate a motor imagery event (e.g., imagination of movement changes signal power)
+    # Simulate a motor imagery event (ex imagination of movement changes signal power)
     # Let's inject a modulated 12 Hz mu-rhythm into channels 3 and 4 (motor cortex area)
     mu_rhythm = np.sin(2 * np.pi * 12 * time)
     
