@@ -91,9 +91,3 @@ python bci_pipeline.py
 - [ ] **Real-world Dataset Integration:** Ingest and preprocess open-access recordings from the [PhysioNet EEG Motor Movement/Imagery Dataset](https://physionet.org/content/eegmmidb/1.0.0/).
 - [ ] **Spatial Filtering:** Implement **Common Spatial Pattern (CSP)** algorithms to maximize feature variance between discrete motor imagery classes (e.g., left hand vs. right hand).
 - [ ] **Classification:** Benchmark Support Vector Machine (SVM) and Linear Discriminant Analysis (LDA) classifiers on extracted feature matrices.
-
----
-
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
